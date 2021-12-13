@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+
+body{
+    font-family: 'Miriam Libre', sans-serif;
+    font-size:x-large;
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 25%;
+    padding: 25px 0;
+    font-family: 'Miriam Libre', sans-serif;
+    font-size:x-large;
+}
+
+p{
+    direction: ltr;
+    padding: 50px 15px;
+    border: black solid 1px;
+}
