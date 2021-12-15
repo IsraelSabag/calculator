@@ -3,6 +3,11 @@ import { useState } from "react";
 
 function App() {
 
+  const [x, setX] = useState("");
+  const [y, setY] = useState("");
+  const [method, setMethod] = useState('');
+  const [sum, setSum] = useState('0');
+
   const buttons = [
     {text:"/",click:()=>{setMethod('/')}},
     {text:"9",click:()=>{set('9')}},
@@ -21,11 +26,6 @@ function App() {
     {text:".",click:()=>{set('.')}},
     {text:"0",click:()=>{set('0')}},
   ]
-
-  const [x, setX] = useState("");
-  const [y, setY] = useState("");
-  const [method, setMethod] = useState('');
-  const [sum, setSum] = useState('0');
 
   const set = (_num) => {
     setSum('');
