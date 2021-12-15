@@ -1,5 +1,4 @@
 import "./App.css"
-import Button from "./componenets/Button";
 import { useState } from "react";
 
 function App() {
@@ -80,7 +79,7 @@ function App() {
       <section className="buttons">
         {buttons.map((b) => {
           return (
-            <Button text={b.text} onclick={b.click}/>
+            <button onClick={b.click}>{b.text}</button>
           )
         })}
       </section>

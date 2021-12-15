@@ -5,6 +5,12 @@ body{
     font-size:x-large;
 }
 
+p{
+    direction: ltr;
+    padding: 50px 15px;
+    border: black solid 1px;
+}
+
 .container{
     max-width: 500px;
     margin: auto;
@@ -20,10 +26,4 @@ button{
     padding: 25px 0;
     font-family: 'Miriam Libre', sans-serif;
     font-size:x-large;
-}
-
-p{
-    direction: ltr;
-    padding: 50px 15px;
-    border: black solid 1px;
 }
